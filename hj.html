@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="hj.css">
+</head>
+
+<body>
+	<div id="all-div">
+		<button id="butselect" >选择</button>
+		<table>
+			<thead id="theader"><th>编号</th><th>面称</th><th>价格</th></thead>
+			<tbody>
+				<tr class="table-tr">
+					<td>1</td>
+					<td>jkskjh</td>
+					<td>8999&yen;</td>
+				</tr>
+				<tr class="table-tr">
+					<td>2</td>
+					<td>mjhkn</td>
+					<td>8459&yen;</td>
+				</tr>
+				<tr class="table-tr">
+					<td>3</td>
+					<td>jkuhv</td>
+					<td>1254&yen;</td>
+				</tr>
+				<tr class="table-tr">
+					<td>4</td>
+					<td>jhgdk</td>
+					<td>7854&yen;</td>
+				</tr>
+				<tr class="table-tr">
+					<td>5</td>
+					<td>khgujk</td>
+					<td>2158&yen;</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+<script>
+	addEventListener=function(){
+		var but=document.querySelector("#butselect");
+		but.onclick=function (){
+			var addfgh=document.querySelector(".table-tr");
+			addfgh.setAttribute("style", "background-color:blue;color:white");addfgh.setAttribute("style", "background-color:red;color:white");
+		}
+}
+		
+</script>
+</html>
